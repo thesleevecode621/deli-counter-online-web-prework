@@ -6,4 +6,4 @@ def line(Array)
   else 
     d=array.map.with_index(1) do|value,index|
     "#{value}.#{index}"
-    puts The line is currently:
+    puts "the line is currently:
