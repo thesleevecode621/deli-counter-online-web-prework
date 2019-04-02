@@ -16,3 +16,14 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{currentIndex} in line."
 
  end
+def now_serving(array)
+  if array == []
+    puts "There is nobody waiting to be served!"
+  else 
+    currentCustomer = array.at(0)
+    puts "Currently serving #{currentCustomer}."
+    array.shift
+
+   end 
+
+ end 
