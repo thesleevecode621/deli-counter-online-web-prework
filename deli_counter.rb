@@ -4,5 +4,5 @@ def line(Array)
   if Array=[]
     puts "The line is currently empty."
   else 
-    d=array.map.with_index(1) do|
+    d=array.map.with_index(1) do|value,index|
     
