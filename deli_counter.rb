@@ -5,5 +5,5 @@ def line(Array)
     puts "The line is currently empty."
   else 
     d=array.map.with_index(1) do|value,index|
-    "#{value}"
+    "#{value}.#{index}"
     
