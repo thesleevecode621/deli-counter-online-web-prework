@@ -12,7 +12,7 @@ def line(Array)
 end
 def take_a_number(array, name)
   array.push(name)
-  currentIndex = array.rindex{ |x| x=="#{name}"}+1 
+  currentIndex = array.index{ |x| x=="#{name}"}+1 
   puts "Welcome, #{name}. You are number #{currentIndex} in line."
 
  end
