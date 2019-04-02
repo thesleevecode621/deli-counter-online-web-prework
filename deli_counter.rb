@@ -8,3 +8,5 @@ def line(Array)
     "#{value}.#{index}"
     puts "the line is currently:"+d.join("")
   end
+  
+end
